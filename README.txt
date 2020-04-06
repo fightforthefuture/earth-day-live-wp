@@ -1,5 +1,5 @@
 === Earth Day Live WP ===
-Contributors: djtoakley, sturosier0691
+Contributors: djtoakley
 Tags: climate,global,earth-day,earth
 Requires at least: 4.6
 Tested up to: 5.2.2
