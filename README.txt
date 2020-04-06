@@ -48,3 +48,8 @@ There are a number of ways to customize the widget in the Wordpress Settings adm
 1. Earth Day Live Footer Banner
 2. Earth Day Live Full Page Banner
 3. Earth Day Live Closeable Overlay
+
+== Changelog ==
+
+= 1.0.0
+- Initial release
