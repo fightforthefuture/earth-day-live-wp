@@ -15,7 +15,7 @@
  * @wordpress-plugin
  * Plugin Name:       Earth Day Live WP
  * Plugin URI:        https://github.com/fightforthefuture/earth-day-live-wp
- * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
+ * Description:       This plugin allows you to easily add the Earth Day Live widget to you Wordpress site.
  * Version:           1.0.0
  * Author:            Fight For The Future
  * Author URI:        https://github.com/fightforthefuture

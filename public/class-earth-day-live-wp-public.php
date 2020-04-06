@@ -54,6 +54,13 @@ class Earth_Day_Live_Wp_Public {
 
 	}
 
+    /**
+     * This method simply adds the Earth Day Live widget to the wordpress public site.
+     */
+    public function add_partial() {
+        include 'partials/earth-day-live-wp-public-display.php';
+    }
+
 	/**
 	 * Register the stylesheets for the public-facing side of the site.
 	 *
@@ -100,4 +107,16 @@ class Earth_Day_Live_Wp_Public {
 
 	}
 
+    /**
+     * This method is used by the public-display partial to instantiate the Javascript Date objects with the
+     * correct integers.
+     *
+     * @param $format
+     * @param $input
+     * @return int
+     */
+    public function get_date_field($format, $input) {
+        $value = date($input);
+        return (int)date($format, strtotime('-1 months', strtotime($value)));
+    }
 }

@@ -8,12 +8,12 @@
  * @link       https://github.com/fightforthefuture
  * @since      1.0.0
  *
- * @package    Earth_Day_Live_WP
- * @subpackage Earth_Day_Live_WP/public/partials
+ * @package    Earth_Day_Live_Wp
+ * @subpackage Earth_Day_Live_Wp/public/partials
  */
 
 $options = get_option($this->plugin_name);
-$show_digital_strike_widget = (int) $options['show_digital_strike_widget'];
+$show_earth_day_live_widget = (int) $options['show_earth_day_live_widget'];
 $language = (string) $options['language'];
 $cookie_expiration_days = (int) $options['cookie_expiration_days'];
 $iframe_host = (string) $options['iframe_host'];
@@ -25,7 +25,7 @@ $footer_display_start_date = (string) $options['footer_display_start_date'];
 $full_page_display_start_date = (string) $options['full_page_display_start_date'];
 
 ?>
-<?php if ($show_digital_strike_widget): ?>
+<?php if ($show_earth_day_live_widget): ?>
     <script>
         var EARTH_DAY_LIVE_OPTIONS = {
             /**
