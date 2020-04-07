@@ -33,11 +33,17 @@ For those who cannot shut down their website for the day, a closable overlay opt
 
 The widget is designed to appear once per user, per device, per day, but can be configured to display at a different interval.
 
-Please take a look at [**widget.js**](https://github.com/fightforthefuture/earth-day-live-widget/blob/master/static/widget.js) if you want to see exactly what you\'re embedding on your page.
-
 The widget is compatible with Firefox, Chrome (desktop and mobile), Safari (desktop and mobile), Microsoft Edge, and Internet Explorer 11.
 
 There are a number of ways to customize the widget in the Wordpress Settings admin section.  It provides details on what each option does.
+
+## Note on 3rd party software
+
+This this plugin relies on 3rd party software (https://widget.earthdaylive2020.org/widget.js), in order for your website to join Earth Day Live with the banner. You need to activelty enable the widget via Settings->Earth Day Live Settings, before this script is added to your website.
+
+Please take a look at [**widget.js**](https://github.com/fightforthefuture/earth-day-live-widget/blob/master/static/widget.js) if you want to see exactly what you\'re embedding on your page.
+
+This software is maintained by the same team on Github, and you can view its license [here](https://github.com/fightforthefuture/earth-day-live-widget/blob/master/LICENSE).
 
 == Installation ==
 1. Upload the plugin files to the `/wp-content/plugins/earth-day-live-wp` directory, or install the plugin through the WordPress plugins screen directly.
